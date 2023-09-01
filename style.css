@@ -1,1 +1,48 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto
+}
 
+/* common class style */
+/* banner-style start */
+.banner-container
+{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   padding-bottom: 30px;
+}
+.section-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 0;
+
+}
+
+.flower-text {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top:30px;
+    margin-bottom: 0px;;
+}
+
+.flower-btn {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 40px;
+    border:0;
+    margin-top:30px;
+    color: white;
+}
+.banner-img .banner-pic
+{
+    width: 600px;
+    height: 700px;
+    margin:0 90px;
+}
+
+/*  */
