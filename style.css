@@ -4,16 +4,40 @@
     margin: 0 auto
 }
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.main-section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    ;
+
+}
+
+.main-section-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
 /* common class style */
 /* banner-style start */
-.banner-container
-{
+.banner-container {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
-   padding-bottom: 30px;
+    padding-bottom: 30px;
 }
+
 .section-title {
     color: #272727;
     font-size: 80px;
@@ -26,23 +50,30 @@
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
     font-weight: 400;
-    margin-top:30px;
-    margin-bottom: 0px;;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    ;
 }
 
 .flower-btn {
     border-radius: 8px;
     background: #E55473;
     padding: 20px 40px;
-    border:0;
-    margin-top:30px;
+    border: 0;
+    margin-top: 30px;
     color: white;
 }
-.banner-img .banner-pic
-{
+
+.banner-img .banner-pic {
     width: 600px;
     height: 700px;
-    margin:0 90px;
+    margin: 0 90px;
 }
 
-/*  */
+/* insta style */
+.insta-image img {
+
+    width: 270px;
+    height: 340px;
+    margin: 30px 5px;
+}
