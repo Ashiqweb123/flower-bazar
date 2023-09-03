@@ -87,15 +87,36 @@ main {
 .deals {
     background-image: url('images/Rectangle\ 9.png');
     background-repeat: no-repeat;
-    /* margin-bottom: 120px; */
+
 }
 
 .form-part input[type=text] {
-    margin:30px 24px;
+    margin: 30px 24px;
     border-radius: 5px;
     border: none;
     border-color: none;
     padding: 18px 50px;
     width: 70%;
     background: #FFF;
+}
+.footer-part{
+    background: #111010;
+    padding: 80px 0;
+    margin-top: 120px;
+}
+#footer-title, #footer-text
+{
+    color: rgba(255, 255, 255, 0.90);
+}
+.flower
+{
+    color: #E55473;
+}
+#reserved-text {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;   
+    font-size: 16px;
+    font-weight: 400;
+    margin:25px;
+
 }
