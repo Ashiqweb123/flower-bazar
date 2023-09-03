@@ -77,3 +77,25 @@ main {
     height: 340px;
     margin: 30px 5px;
 }
+
+/* deal section style */
+#latest-deal {
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+.deals {
+    background-image: url('images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    /* margin-bottom: 120px; */
+}
+
+.form-part input[type=text] {
+    margin:30px 24px;
+    border-radius: 5px;
+    border: none;
+    border-color: none;
+    padding: 18px 50px;
+    width: 70%;
+    background: #FFF;
+}
