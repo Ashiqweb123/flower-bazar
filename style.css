@@ -55,6 +55,21 @@
 
 }
 
+
+.feature-image 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-image .image-bg {
+    width: 300px;
+    height: 328px;
+    background-image: url('images/bg.png');
+    background-repeat: no-repeat;
+    margin: 0 10px;
+}
+
 .flower-btn {
     border-radius: 8px;
     background: #E55473;
@@ -85,12 +100,12 @@
 }
 
 #flower-deal-btn {
-    
-   
+
+
     padding: 20px 43px;
     align-items: flex-start;
     gap: 10px;
-    margin-left:400px;
+    margin-left: 400px;
 }
 
 /* insta style */
